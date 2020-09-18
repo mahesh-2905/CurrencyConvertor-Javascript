@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+    <title>Currency converter</title>
+</head>
+<body>
+  
+    <div class="container">
+        <div class="jumbotron p-4  mt-4">
+            <h1 class="display-1 mb-5 text-center"><b>Currency Converter</b></h1>
+            <div class="container">
+                <div class="converter_section">
+                    <div class="form-group row p-0">
+                        <div class="col-md-5">
+                            <label for="">Convert from:</label>
+                        </div>
+                        <div class="col-md-7">
+                            <select class="form-control" name="" id="">
+                                
+                            </select>                    
+                        </div>
+                    </div>
+                    <div class="form-group row p-0">
+                        <div class="col-md-5">
+                            <label for="">Convert to :</label>
+                        </div>
+                        <div class="col-md-7">
+                            <select class="form-control" name="" id="" >
+                                
+                            </select>                    
+                        </div>
+                    </div>
+                    <div class="form-group row p-0">
+                        <div class="col-md-5">
+                            <label for="">Currency Value :</label>
+                        </div>
+                        <div class="col-md-7">
+                            <input type="text" class="form-control" name="" id="cur_value" aria-describedby="helpId" placeholder="">
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center mt-5">
+                        <button id="conv_btn" class="btn btn-secondary" onclick="submit()" role="button">Convert now</button>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p id="con_val">
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
